@@ -39,10 +39,9 @@ img {
   display: inline-block;
   cursor: pointer;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
-
 }
-.btn:hover{
-    transform: scale(1.1);
+.btn:hover {
+  transform: scale(1.1);
 }
 
 .btn-primary {
@@ -109,8 +108,8 @@ img {
 
 /* Banner Section */
 .banner {
-  background: linear-gradient(rgba(10, 25, 41, 0.85), rgba(10, 25, 41, 0.85)),
-    url("https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=1500&q=80");
+  background: linear-gradient(rgba(10, 25, 41, 0.35), rgba(10, 25, 41, 0.35)),
+    url("assets/hero-bg.png");
   background-size: cover;
   background-position: center;
   padding: 100px 0;
@@ -121,9 +120,9 @@ img {
 .badge {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   gap: 5px;
-  width:fit-content;
+  width: fit-content;
   background: rgba(255, 255, 255, 1);
   color: black;
   padding: 5px 15px;
@@ -132,6 +131,8 @@ img {
   margin: 0 auto;
   margin-bottom: 20px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  animation: bounce 2s infinite;
 }
 
 .banner h1 {
@@ -190,7 +191,7 @@ img {
 }
 
 .card:hover {
-  z-index: 10;  
+  z-index: 10;
   transform: translateY(-10px);
 }
 
@@ -231,10 +232,10 @@ img {
 
 /* Second Brain Section */
 .second-brain {
-      padding: 100px 0;
-    position: relative;
-    transform: translateY(-38px);
-    background: white;
+  padding: 100px 0;
+  position: relative;
+  transform: translateY(-38px);
+  background: white;
 }
 
 .flex-row {
@@ -286,7 +287,7 @@ img {
 }
 
 .ea-box {
-  background: rgba(247, 246, 242, 1);;
+  background: rgba(247, 246, 242, 1);
   padding: 60px;
   border-radius: 20px;
   text-align: center;
@@ -363,5 +364,17 @@ img {
   }
   .banner h1 {
     font-size: 2.5rem;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    top: 0;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    top: 8px;
+    animation-timing-function: ease-out;
   }
 }
