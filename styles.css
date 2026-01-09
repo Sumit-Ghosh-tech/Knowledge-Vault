@@ -89,7 +89,7 @@ img {
   align-items: center;
   gap: 10px;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .nav-links {
@@ -99,7 +99,7 @@ img {
 
 .nav-links a {
   color: #555;
-  font-size: 0.95rem;
+  font-size: 16px;
 }
 
 .nav-links a:hover {
@@ -127,16 +127,14 @@ img {
   color: black;
   padding: 5px 15px;
   border-radius: 20px;
-  font-size: 0.8rem;
+  font-size: 14px;
   margin: 0 auto;
   margin-bottom: 20px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  position: relative;
-  animation: bounce 2s infinite;
 }
 
 .banner h1 {
-  font-size: 3.5rem;
+  font-size: 56px;
   margin-bottom: 20px;
   line-height: 1.2;
 }
@@ -148,7 +146,7 @@ img {
 .banner p {
   max-width: 700px;
   margin: 0 auto 40px;
-  font-size: 1.1rem;
+  font-size: 18px;
   color: #ccc;
 }
 
@@ -160,13 +158,13 @@ img {
 
 /* Notes Section */
 .notes-section {
-  padding: 100px 0 0;
+  padding: 50px 0 0;
   text-align: center;
   background-color: #fcfcfc;
 }
 
 .section-header h2 {
-  font-size: 2.2rem;
+  font-size: 36px;
   margin-bottom: 15px;
 }
 
@@ -185,14 +183,8 @@ img {
   background: white;
   padding: 40px 20px;
   border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  flex: 1;
-  transition: transform 0.3s;
-}
-
-.card:hover {
-  z-index: 10;
-  transform: translateY(-10px);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  flex: 1; 
 }
 
 .card-icon {
@@ -204,7 +196,7 @@ img {
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 1.2rem;
+  font-size: 24px;
 }
 
 .icon-red {
@@ -221,12 +213,12 @@ img {
 }
 
 .card h3 {
-  font-size: 1.2rem;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
 .card p {
-  font-size: 0.9rem;
+  font-size: 15px;
   color: #666;
 }
 
@@ -234,7 +226,6 @@ img {
 .second-brain {
   padding: 100px 0;
   position: relative;
-  transform: translateY(-38px);
   background: white;
 }
 
@@ -251,16 +242,15 @@ img {
 .sb-content {
   flex: 1;
 }
-
 .sub-message {
   color: #4caf50;
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 15px;
   letter-spacing: 1px;
 }
 
 .sb-content h2 {
-  font-size: 2.5rem;
+  font-size: 48px;
   margin: 15px 0;
   line-height: 1.2;
 }
@@ -295,7 +285,7 @@ img {
 }
 
 .ea-box h2 {
-  font-size: 2.2rem;
+  font-size: 36px;
   margin-bottom: 15px;
 }
 
@@ -306,7 +296,7 @@ img {
 
 .small-text {
   margin-top: 20px !important;
-  font-size: 0.8rem;
+  font-size: 14px;
   color: #999 !important;
 }
 
@@ -327,7 +317,7 @@ img {
 .socials span {
   display: block;
   margin-bottom: 10px;
-  font-size: 0.9rem;
+  font-size: 15px;
   text-align: right;
 }
 
@@ -338,7 +328,7 @@ img {
 
 .social-icons a {
   color: white;
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .divider {
@@ -349,7 +339,7 @@ img {
 
 .copyright {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 14px;
   color: #888;
 }
 
@@ -363,18 +353,6 @@ img {
     flex-direction: column;
   }
   .banner h1 {
-    font-size: 2.5rem;
-  }
-}
-
-@keyframes bounce {
-  0%,
-  100% {
-    top: 0;
-    animation-timing-function: ease-in;
-  }
-  50% {
-    top: 8px;
-    animation-timing-function: ease-out;
+    font-size: 40px;
   }
 }
